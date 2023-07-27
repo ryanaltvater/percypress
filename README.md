@@ -1,6 +1,6 @@
 # 🧳 Introduction
 
-Insert description here.
+An example project that demonstrates the very bare-bones capabilities of using Percy within Cypress tests to take snapshots of web pages, for visual regression testing. The snapshots are then uploaded to Percy's dashboard, where they can be reviewed.
 
 # 🛠 Installation
 
