@@ -1,0 +1,21 @@
+{
+    "name": "abt-cypress",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node cypress.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@percy/cli": "^1.26.2",
+        "@percy/cypress": "^3.1.2",
+        "chalk": "^5.3.0",
+        "cross-env": "^7.0.3",
+        "cypress": "^12.17.2",
+        "prettier": "^3.0.0"
+    }
+}
