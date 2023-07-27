@@ -24,7 +24,7 @@ An example project that demonstrates the very bare-bones capabilities of using P
 ## Clone the repository
 
 ```bash
-git clone git@.git
+git clone git@github.com:ryanaltvater/percypress.git
 ```
 
 ## Install Node Version Manager ([NVM](https://github.com/nvm-sh/nvm#about))
