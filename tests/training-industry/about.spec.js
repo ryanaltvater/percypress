@@ -1,6 +1,6 @@
 const screenWidths = [576, 768, 992, 1200];
 
-describe("Training Industry - About", () => {
+describe("About", () => {
     it("should visit the 'About' page", () => {
         cy.visit("https://trainingindustry.com/about");
 
