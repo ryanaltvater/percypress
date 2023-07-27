@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # 🧳 Introduction
 
 Insert description here.
