@@ -1,3 +1,4 @@
+// Dependencies
 import { execSync } from "child_process";
 import chalk from "chalk";
 import fs from "fs";
