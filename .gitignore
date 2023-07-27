@@ -6,6 +6,8 @@ _design/
 # /dev/
 # /dist/
 docs/
+cypress/screenshots
+cypress/videos
 images/
 img/
 public/
