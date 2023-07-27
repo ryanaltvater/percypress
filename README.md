@@ -1,3 +1,14 @@
+```
+ ________  _______   ________  ________      ___    ___ ________  ________  _______   ________
+|\   __  \|\  ___ \ |\   __  \|\   ____\    |\  \  /  /|\   __  \|\   __  \|\  ___ \ |\   ____\
+\ \  \|\  \ \  \__/ \ \  \|\  \ \  \___|    \ \  \/  / | \  \|\  \ \  \|\  \ \  \__/ \ \  \___|_
+ \ \   ____\ \  \_\  \ \   _  _\ \  \        \ \    / / \ \   ____\ \   _  _\ \  \_\  \ \_____  \
+  \ \  \___|\ \  \_|\ \ \  \\  \\ \  \____    \/  /  /   \ \  \___|\ \  \\  \\ \  \_|\ \|____|\  \
+   \ \__\    \ \_______\ \__\\ _\\ \_______\__/  / /      \ \__\    \ \__\\ _\\ \_______\____\_\  \
+    \|__|     \|_______|\|__|\|__|\|_______|\___/ /        \|__|     \|__|\|__|\|_______|\_________\
+                                           \|___|/                                      \|_________|
+```
+
 # 🧳 Introduction
 
 An example project that demonstrates the very bare-bones capabilities of using Percy within Cypress tests to take snapshots of web pages, for visual regression testing. The snapshots are then uploaded to Percy's dashboard, where they can be reviewed.
