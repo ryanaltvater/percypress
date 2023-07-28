@@ -5,6 +5,7 @@ describe("Our Process page", () => {
         cy.visit("https://www.atlanticbt.com/our-process");
     });
 
+    // Takes a snapshot
     it("should visit the 'Our Process' page", () => {
         cy.percySnapshot('Visited the "Our Process" page', {
             widths: screenWidths

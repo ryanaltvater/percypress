@@ -1,6 +1,7 @@
 const screenWidths = [576, 768, 992, 1200];
 
 describe("Home page", () => {
+    // Takes a snapshot
     it("should visit the 'Home' page", () => {
         cy.visit("https://redhat.com");
 
