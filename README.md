@@ -77,10 +77,13 @@ npm test -- project-name
 ## `.env`
 
 - A collection of environment variables that are used by Percy.
-- When setting up a new project of tests, add the associated Percy token to this file.
+- When setting up a new project of tests, add a corresponding Percy token to this file.
 - Ensure that the token name matches the project name, to avoid errors.
-  - The difference between hyphens and underscores for spacing in the project name is handled dynamically.
-  - Refer to the chart below, for proper naming.
+  - If the project name is `project-name`, then the token name should be `PROJECT_NAME`.
+  - The difference between hyphens and underscores, for spacing, is handled dynamically.
+  - The project name can use hyphens, underscores, or no spacing.
+  - The token name can use underscores, or no spacing.
+  - Refer to the chart below, for examples.
 
 |           | Project        | Token          |
 |-----------|----------------|----------------|
@@ -96,12 +99,12 @@ npm test -- project-name
 
 ## `cypress.config.js`
 
-- The configuration file for Cypress that allows you to customize various settings and behaviors for your test suite.
-- For more information, refer to the [Cypress configuration documentation](https://docs.cypress.io/guides/references/configuration).
+- The configuration file allows you to customize various settings and behaviors for your test suite.
+- For more information, refer to the [configuration documentation](https://docs.cypress.io/guides/references/configuration).
 
 ## `cypress.js`
 
-- The file for Cypress that dynamically sets environment variables and executes tests based on the provided project name.
+- The file that dynamically sets the environment variables and executes tests, based on the provided project name.
 
 # 🔗 Additional links
 
