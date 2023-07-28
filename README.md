@@ -70,7 +70,7 @@ npm cy:open
 
 ---
 
-- Develop new tests, or debug existing ones.
+- Develop new tests, or test/debug existing ones.
 - Percy will be disabled in this mode, and not take snapshots.
 - Testing happens within the Cypress GUI, and not the command line.
 
