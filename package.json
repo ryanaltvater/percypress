@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "node cypress.js"
+        "cy:open": "cypress open",
+        "cy:test": "node cypress.js"
     },
     "keywords": [],
     "author": "",
