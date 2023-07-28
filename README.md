@@ -62,15 +62,29 @@ npm ci
 
 # 👟 Commands
 
-## Run a project's tests
+## Run individual tests
 
 ```bash
-npm test -- project-name
+npm cy:open
 ```
 
 ---
 
-- Insert description here.
+- Develop new tests, or debug existing ones.
+- Percy will be disabled in this mode, and not take snapshots.
+- Testing happens within the Cypress GUI, and not the command line.
+
+## Run a set of tests
+
+```bash
+npm cy:test -- project-name
+```
+
+---
+
+- Run all tests that are associated with the specified project.
+- Percy will be enabled in this mode, and take snapshots.
+- Testing happens within the command line, and not the Cypress GUI.
 
 # 🗒 Notes
 
