@@ -71,7 +71,7 @@ try {
 
     // Run the Cypress tests using the custom project name
     execSync(
-        `percy exec -- cross-env CYPRESS_SPEC_FOLDER=${projectName} cypress run`,
+        `percy exec -- cross-env CYPRESS_specPattern=tests/${projectName}/*.spec.js cypress run`,
         {
             stdio: "inherit"
         }

@@ -1,6 +1,6 @@
 export default {
     e2e: {
-        specPattern: `tests/${process.env.CYPRESS_SPEC_FOLDER}/*.spec.js`
+        specPattern: `tests/**/*.spec.js`
     },
     video: false,
     viewportWidth: 1280,
