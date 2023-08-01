@@ -65,7 +65,7 @@ npm ci
 ## Run individual tests
 
 ```bash
-npm cy:open
+npm run cy:open
 ```
 
 ---
@@ -77,7 +77,7 @@ npm cy:open
 ## Run a set of tests
 
 ```bash
-npm cy:test -- project-name
+npm run cy:test -- project-name
 ```
 
 ---
@@ -100,7 +100,7 @@ npm cy:test -- project-name
   - Refer to the chart below, for examples.
 
 |           | Project        | Token          |
-|-----------|----------------|----------------|
+| --------- | -------------- | -------------- |
 | Correct   | `project-name` | `PROJECT_NAME` |
 | Correct   | `project_name` | `PROJECT_NAME` |
 | Correct   | `projectname`  | `PROJECTNAME`  |
