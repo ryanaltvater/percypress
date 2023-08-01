@@ -1,11 +1,11 @@
 {
-    "name": "abt-cypress",
-    "version": "0.0.0",
+    "name": "percypress",
+    "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "cy:open": "cypress open",
-        "cy:test": "node cypress.js"
+        "open": "cypress open",
+        "tests": "node cypress.js"
     },
     "keywords": [],
     "author": "",

@@ -65,7 +65,7 @@ npm ci
 ## Run individual tests
 
 ```bash
-npm run cy:open
+npm run open
 ```
 
 ---
@@ -77,7 +77,7 @@ npm run cy:open
 ## Run a set of tests
 
 ```bash
-npm run cy:test -- project-name
+npm run tests -- project-name
 ```
 
 ---
