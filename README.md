@@ -60,9 +60,9 @@ npm ci
 - [`ci`](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) stands for clean install, and is used to install exact versions of all dependencies from a `package-lock.json` file.
 - `npm i` (or `npm install`) is used to install all dependencies from a `package.json` file.
 
-# 👟 Commands
+# 👟 Run commands
 
-## Run individual tests
+## Individual tests
 
 ```bash
 npm run open
@@ -74,7 +74,7 @@ npm run open
 - Percy will be disabled in this mode, and not take snapshots.
 - Testing happens within the Cypress GUI, and not the command line.
 
-## Run a set of tests
+## Set of tests
 
 ```bash
 npm run tests -- project-name
